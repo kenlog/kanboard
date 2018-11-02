@@ -14,7 +14,6 @@
         "discard-changes": true
     },
     "require" : {
-        "kanboard/kanboard": "dev-master",
         "php" : ">=5.6.0",
         "ext-simplexml" : "*",
         "ext-dom" : "*",
@@ -62,11 +61,5 @@
         "myclabs/deep-copy": "1.7.0",
         "phpunit/phpunit" : "5.7.24",
         "phpunit/phpunit-selenium": "3.0.3"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/kenlog/kanboard"
-        }
-    ]
+    }
 }
